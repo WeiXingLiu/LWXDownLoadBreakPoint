@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		959E6CE11B7485590024BD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6CE01B7485590024BD0E /* main.m */; };
+		959E6CE41B7485590024BD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6CE31B7485590024BD0E /* AppDelegate.m */; };
+		959E6CE61B7485590024BD0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E6CE51B7485590024BD0E /* Images.xcassets */; };
+		959E6CE91B7485590024BD0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959E6CE71B7485590024BD0E /* LaunchScreen.xib */; };
+		959E6CF51B7485590024BD0E /* MyDownLoadBreakPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6CF41B7485590024BD0E /* MyDownLoadBreakPointTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		959E6CEF1B7485590024BD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959E6CD31B7485590024BD0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959E6CDA1B7485590024BD0E;
+			remoteInfo = MyDownLoadBreakPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		959E6CDB1B7485590024BD0E /* MyDownLoadBreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDownLoadBreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		959E6CDF1B7485590024BD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959E6CE01B7485590024BD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		959E6CE21B7485590024BD0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		959E6CE31B7485590024BD0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		959E6CE51B7485590024BD0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		959E6CE81B7485590024BD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		959E6CEE1B7485590024BD0E /* MyDownLoadBreakPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDownLoadBreakPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		959E6CF31B7485590024BD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959E6CF41B7485590024BD0E /* MyDownLoadBreakPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDownLoadBreakPointTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		959E6CD81B7485590024BD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959E6CEB1B7485590024BD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		959E6CD21B7485590024BD0E = {
+			isa = PBXGroup;
+			children = (
+				959E6CDD1B7485590024BD0E /* MyDownLoadBreakPoint */,
+				959E6CF11B7485590024BD0E /* MyDownLoadBreakPointTests */,
+				959E6CDC1B7485590024BD0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		959E6CDC1B7485590024BD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959E6CDB1B7485590024BD0E /* MyDownLoadBreakPoint.app */,
+				959E6CEE1B7485590024BD0E /* MyDownLoadBreakPointTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959E6CDD1B7485590024BD0E /* MyDownLoadBreakPoint */ = {
+			isa = PBXGroup;
+			children = (
+				959E6CE21B7485590024BD0E /* AppDelegate.h */,
+				959E6CE31B7485590024BD0E /* AppDelegate.m */,
+				959E6CE51B7485590024BD0E /* Images.xcassets */,
+				959E6CE71B7485590024BD0E /* LaunchScreen.xib */,
+				959E6CDE1B7485590024BD0E /* Supporting Files */,
+			);
+			path = MyDownLoadBreakPoint;
+			sourceTree = "<group>";
+		};
+		959E6CDE1B7485590024BD0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				959E6CDF1B7485590024BD0E /* Info.plist */,
+				959E6CE01B7485590024BD0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		959E6CF11B7485590024BD0E /* MyDownLoadBreakPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				959E6CF41B7485590024BD0E /* MyDownLoadBreakPointTests.m */,
+				959E6CF21B7485590024BD0E /* Supporting Files */,
+			);
+			path = MyDownLoadBreakPointTests;
+			sourceTree = "<group>";
+		};
+		959E6CF21B7485590024BD0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				959E6CF31B7485590024BD0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		959E6CDA1B7485590024BD0E /* MyDownLoadBreakPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959E6CF81B7485590024BD0E /* Build configuration list for PBXNativeTarget "MyDownLoadBreakPoint" */;
+			buildPhases = (
+				959E6CD71B7485590024BD0E /* Sources */,
+				959E6CD81B7485590024BD0E /* Frameworks */,
+				959E6CD91B7485590024BD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDownLoadBreakPoint;
+			productName = MyDownLoadBreakPoint;
+			productReference = 959E6CDB1B7485590024BD0E /* MyDownLoadBreakPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		959E6CED1B7485590024BD0E /* MyDownLoadBreakPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959E6CFB1B7485590024BD0E /* Build configuration list for PBXNativeTarget "MyDownLoadBreakPointTests" */;
+			buildPhases = (
+				959E6CEA1B7485590024BD0E /* Sources */,
+				959E6CEB1B7485590024BD0E /* Frameworks */,
+				959E6CEC1B7485590024BD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959E6CF01B7485590024BD0E /* PBXTargetDependency */,
+			);
+			name = MyDownLoadBreakPointTests;
+			productName = MyDownLoadBreakPointTests;
+			productReference = 959E6CEE1B7485590024BD0E /* MyDownLoadBreakPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		959E6CD31B7485590024BD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "刘卫星";
+				TargetAttributes = {
+					959E6CDA1B7485590024BD0E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					959E6CED1B7485590024BD0E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 959E6CDA1B7485590024BD0E;
+					};
+				};
+			};
+			buildConfigurationList = 959E6CD61B7485590024BD0E /* Build configuration list for PBXProject "MyDownLoadBreakPoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 959E6CD21B7485590024BD0E;
+			productRefGroup = 959E6CDC1B7485590024BD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959E6CDA1B7485590024BD0E /* MyDownLoadBreakPoint */,
+				959E6CED1B7485590024BD0E /* MyDownLoadBreakPointTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959E6CD91B7485590024BD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959E6CE91B7485590024BD0E /* LaunchScreen.xib in Resources */,
+				959E6CE61B7485590024BD0E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959E6CEC1B7485590024BD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		959E6CD71B7485590024BD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959E6CE41B7485590024BD0E /* AppDelegate.m in Sources */,
+				959E6CE11B7485590024BD0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959E6CEA1B7485590024BD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959E6CF51B7485590024BD0E /* MyDownLoadBreakPointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		959E6CF01B7485590024BD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959E6CDA1B7485590024BD0E /* MyDownLoadBreakPoint */;
+			targetProxy = 959E6CEF1B7485590024BD0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		959E6CE71B7485590024BD0E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959E6CE81B7485590024BD0E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		959E6CF61B7485590024BD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		959E6CF71B7485590024BD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		959E6CF91B7485590024BD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDownLoadBreakPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		959E6CFA1B7485590024BD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDownLoadBreakPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		959E6CFC1B7485590024BD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyDownLoadBreakPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDownLoadBreakPoint.app/MyDownLoadBreakPoint";
+			};
+			name = Debug;
+		};
+		959E6CFD1B7485590024BD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyDownLoadBreakPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDownLoadBreakPoint.app/MyDownLoadBreakPoint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		959E6CD61B7485590024BD0E /* Build configuration list for PBXProject "MyDownLoadBreakPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959E6CF61B7485590024BD0E /* Debug */,
+				959E6CF71B7485590024BD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959E6CF81B7485590024BD0E /* Build configuration list for PBXNativeTarget "MyDownLoadBreakPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959E6CF91B7485590024BD0E /* Debug */,
+				959E6CFA1B7485590024BD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		959E6CFB1B7485590024BD0E /* Build configuration list for PBXNativeTarget "MyDownLoadBreakPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959E6CFC1B7485590024BD0E /* Debug */,
+				959E6CFD1B7485590024BD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 959E6CD31B7485590024BD0E /* Project object */;
+}
