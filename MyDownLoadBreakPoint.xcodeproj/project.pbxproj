@@ -12,6 +12,9 @@
 		959E6CE61B7485590024BD0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E6CE51B7485590024BD0E /* Images.xcassets */; };
 		959E6CE91B7485590024BD0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959E6CE71B7485590024BD0E /* LaunchScreen.xib */; };
 		959E6CF51B7485590024BD0E /* MyDownLoadBreakPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6CF41B7485590024BD0E /* MyDownLoadBreakPointTests.m */; };
+		959E6D021B74856D0024BD0E /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6D011B74856D0024BD0E /* NSString+Hashing.m */; };
+		959E6D051B74858B0024BD0E /* LWXDownBreakPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6D041B74858B0024BD0E /* LWXDownBreakPoint.m */; };
+		959E6D081B74861A0024BD0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6D071B74861A0024BD0E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 		959E6CEE1B7485590024BD0E /* MyDownLoadBreakPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDownLoadBreakPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		959E6CF31B7485590024BD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		959E6CF41B7485590024BD0E /* MyDownLoadBreakPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDownLoadBreakPointTests.m; sourceTree = "<group>"; };
+		959E6D001B74856D0024BD0E /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		959E6D011B74856D0024BD0E /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		959E6D031B74858B0024BD0E /* LWXDownBreakPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXDownBreakPoint.h; sourceTree = "<group>"; };
+		959E6D041B74858B0024BD0E /* LWXDownBreakPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXDownBreakPoint.m; sourceTree = "<group>"; };
+		959E6D061B74861A0024BD0E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		959E6D071B74861A0024BD0E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,9 @@
 		959E6CD21B7485590024BD0E = {
 			isa = PBXGroup;
 			children = (
+				959E6D031B74858B0024BD0E /* LWXDownBreakPoint.h */,
+				959E6D041B74858B0024BD0E /* LWXDownBreakPoint.m */,
+				959E6CFE1B74856D0024BD0E /* md5加密 */,
 				959E6CDD1B7485590024BD0E /* MyDownLoadBreakPoint */,
 				959E6CF11B7485590024BD0E /* MyDownLoadBreakPointTests */,
 				959E6CDC1B7485590024BD0E /* Products */,
@@ -81,6 +93,8 @@
 				959E6CE51B7485590024BD0E /* Images.xcassets */,
 				959E6CE71B7485590024BD0E /* LaunchScreen.xib */,
 				959E6CDE1B7485590024BD0E /* Supporting Files */,
+				959E6D061B74861A0024BD0E /* ViewController.h */,
+				959E6D071B74861A0024BD0E /* ViewController.m */,
 			);
 			path = MyDownLoadBreakPoint;
 			sourceTree = "<group>";
@@ -109,6 +123,23 @@
 				959E6CF31B7485590024BD0E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		959E6CFE1B74856D0024BD0E /* md5加密 */ = {
+			isa = PBXGroup;
+			children = (
+				959E6CFF1B74856D0024BD0E /* nsstring-hashing */,
+			);
+			path = "md5加密";
+			sourceTree = "<group>";
+		};
+		959E6CFF1B74856D0024BD0E /* nsstring-hashing */ = {
+			isa = PBXGroup;
+			children = (
+				959E6D001B74856D0024BD0E /* NSString+Hashing.h */,
+				959E6D011B74856D0024BD0E /* NSString+Hashing.m */,
+			);
+			path = "nsstring-hashing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959E6D051B74858B0024BD0E /* LWXDownBreakPoint.m in Sources */,
+				959E6D021B74856D0024BD0E /* NSString+Hashing.m in Sources */,
 				959E6CE41B7485590024BD0E /* AppDelegate.m in Sources */,
 				959E6CE11B7485590024BD0E /* main.m in Sources */,
+				959E6D081B74861A0024BD0E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
